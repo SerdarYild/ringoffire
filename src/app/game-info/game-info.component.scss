@@ -5,3 +5,10 @@
 .card-info-title {
   padding-left: 15px;
 }
+
+mat-card {
+  @media (max-width: 720px) {
+    min-width: 100px;
+  }
+
+}
